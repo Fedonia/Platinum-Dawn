@@ -1,0 +1,50 @@
+bookmarks = {
+	bookmark = {
+		name = "Platinum Dawn Bookmark"
+		desc = "PLATINUM_DAWN_BOOKMARK_LOC"
+		date = 2060.11.15.12
+		picture = "GFX_platinum_dawn_bookmark"
+		default_country = "POL"
+	
+		FRA = {
+			history = FRA_BLITZKRIEG_DESC
+			ideology = democratic
+			ideas={
+				FRA_victors_of_wwi
+				FRA_disjointed_government
+				FRA_protected_by_the_maginot_line
+			}
+			focuses = {
+				FRA_strengthen_government_support
+				FRA_arms_purchases_in_the_us
+				FRA_french_union
+			}
+		}
+		
+
+		"---"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}
+
+		# minors from DLC ####
+		"POL"={
+			minor = yes
+			history = "POL_BLITZKRIEG_DESC"
+			ideology = neutrality
+			ideas = {
+				deterrence
+			}
+			focuses = {
+				POL_the_baltic_alliance
+				POL_draw_closer_to_britain
+				POL_seek_accommodation_with_germany
+			}
+		}
+
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

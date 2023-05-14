@@ -1,0 +1,6 @@
+spriteTypes = {
+spriteType = {
+		name = "GFX_platinum_dawn_bookmark"
+		texturefile = "gfx/interface/platinum_dawn_2060.dds"
+	}
+	
